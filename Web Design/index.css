@@ -62,7 +62,7 @@ header {
     border: none;
     color: white;
     margin: 1em;
-    background: linear-gradient(to bottom right, var(--gradient1-color), var(--gradient2-color));;
+    background: linear-gradient(to bottom right, var(--gradient1-color), var(--gradient2-color));
     border-radius: var(--radius);
     display: flex;
     justify-content: center;
@@ -75,6 +75,6 @@ header {
 .gradient:hover {
     --gradient1-color: indigo;
     --gradient2-color: tomato;
-    background: linear-gradient(to bottom left, var(--gradient1-color), var(--gradient2-color));;
+    background: linear-gradient(to bottom left, var(--gradient1-color), var(--gradient2-color));
     cursor: pointer;
 }
